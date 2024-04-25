@@ -1,3 +1,14 @@
-.madarkep{
-    float: right;
+body{
+    background-color: gray;
+    color: white;
 }
+#kartya{
+    transform: scale(10px);
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+
