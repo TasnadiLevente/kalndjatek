@@ -1,14 +1,81 @@
-body{
-    background-color: gray;
-    color: white;
-}
-#kartya{
-    transform: scale(10px);
-}
+
+
 header{
-    background-color: black;
+    background-image: url(header\ hattere.png); /* főoldal */
+    height: 155px;
     color: white;
     text-align: center;
-    height: 100px;
 }
+
+.szincsik {
+	height: 10px;
+	background: linear-gradient(150deg, rgb(44, 252, 3) 10%, rgb(2, 162, 255) 30%, rgb(200, 20, 255) ); /* felső színes csík */
+    
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+.cimsor {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 155px;
+  background-color: rgb(34, 32, 32);
+  color: white;
+}
+
+
+#gombok:hover{
+ 
+  transform: scale(1.1);
+}
+#gombok{
+  
+  transition: width 2s, height 2s, transform 1s;
+  
+}
+#kartya{
+  transition: width 2s, height 2s, transform 1s ;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}
+#kartya:hover{
+  transform: scale(1.2);
+}
+body{
+  background-image: url(hatter2.jpg);
+}
+
+/* galéria */
+
+.gallery {
+  margin: 5px;
+  border: 5px solid #ccc;
+  border-radius: 5px;
+  float: left;
+  width: 180px;
+}
+
+#gallery:hover {
+  transform: scale(1.2);
+}
+#gallery{
+  transition: width 2s, height 2s, transform 1s;
+  
+}
+
+
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+img{
+  width: 100px;
+}
+
 
